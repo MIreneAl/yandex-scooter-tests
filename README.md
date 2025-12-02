@@ -24,16 +24,15 @@
 4. Проверить, что код ответа равен 200
 
 ## Структура проекта
-yandex-scooter-tests/
-├── configuration.py           # Конфигурация сервера
-├── data.py                   # Тестовые данные заказа
-├── sender_stand_request.py   # Функции API-запросов
-├── test_order.py             # Автотест создания заказа
-├── sql_queries.sql          # SQL-запросы
-├── screenshots/             # Скриншоты запуска тестов
-│   └── test_vscode_result.png
-├── .gitignore               # Игнорируемые файлы
-└── README.md                # Документация проекта
+- **configuration.py** - Конфигурация сервера
+- **data.py** - Тестовые данные заказа  
+- **sender_stand_request.py** - Функции API-запросов
+- **test_order.py** - Автотест создания заказа
+- **sql_queries.sql** - SQL-запросы
+- **screenshots/** - Скриншоты запуска тестов
+  - test_vscode_result.png
+- **.gitignore** - Игнорируемые файлы
+- **README.md** - Документация проекта
 
 ## Требования
 - Python 3.13.7
